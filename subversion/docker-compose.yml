@@ -1,0 +1,8 @@
+services:
+  svn:
+    image: elleflorio/svn-server:latest
+    container_name: svn
+    hostname: svn
+    ports:
+      - 80:80
+      - 3690:3690
